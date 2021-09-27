@@ -1,0 +1,109 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #ccc;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* HACK */
+    font-size: 62.5%;
+    line-height: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+.mt-10 {
+    margin: 10px 0;
+}
+.mt-20 {
+    margin: 20px 0;
+}
+
+.mt-15 {
+    margin: 15px 0;
+}
+
+.mt-16 {
+    margin: 16px 0;
+}
+
+.ln-32 {
+    line-height: 3.2rem;
+}
+
+.pd-128-16 {
+    padding: 128px 16px;
+}
+
+.pd-64-16 {
+    padding: 64px 16px;
+}
+/* Reponsive */
+.grid {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: -8px;
+    margin-right: -8px; */
+}
+
+.grid__column-3 {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 25%;
+}
+
+.grid__column-3-no-pd {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5.1rem;
+    transform: translateY(22%);
+}
+
+.grid__column-4 {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 33.3333%;
+}
+
+.grid__column-6 {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 50%;
+}
+
+
+
+.grid__column-2-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
+/* Test */
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3333%;
+}
